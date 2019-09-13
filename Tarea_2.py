@@ -1,8 +1,8 @@
 def fibonacci():
-    a = int (input("ingrese el límite máximo de la serie fibonacci"))
-    if (a<0):
-        print ("el número no puede ser negativo")
-        fibonacci ()
+    a = int(input("ingrese el límite máximo de la serie fibonacci"))
+    if (a < 0):
+        print("el número no puede ser negativo")
+        fibonacci()
     b = 0
     c = 1
     iterm = 0
@@ -11,7 +11,7 @@ def fibonacci():
         b = c
         c = result
         iterm = iterm + 1
-        print (b, ' - ')
-        
-        
+        print(b, ' - ')
+
+
 fibonacci()
